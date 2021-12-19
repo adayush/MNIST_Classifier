@@ -1,19 +1,17 @@
 /* Some CSS styling */
 
 #sketchpadapp {
-    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#clear_button{
-  margin-left: 15px;
-  font-weight: bold;
-  color: blue;
+#predict_button, #clear_button {
+  
 }
 
 #confidence{
@@ -45,13 +43,6 @@
   color: #fff;
   padding-top: 1%;
   padding-bottom: 0%;
-}
-
-
-#predict_button{
-  margin-right: 15px;
-  color: blue;
-  font-weight: bold;
 }
 
 #prediction_heading{
