@@ -7,6 +7,9 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  padding: 5%
+}
 
 #sketchpadapp {
   /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
@@ -34,19 +37,9 @@ p {
   padding-bottom: 0;
 }
 
-.welcome{
-   text-align: center;
-   position: relative;
-   color: honeydew;
-   background-color: greenyellow;
-   padding-top: 1%;
-   padding-bottom: 1%;
-   font-weight: bold;
-}
-
 #footer{
+  height: 20px;
   text-align: center;
-  background-color: #292b2c;
   color: #fff;
   padding: 1%;
 }
@@ -145,7 +138,7 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
