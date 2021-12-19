@@ -24,7 +24,6 @@ body {
 #predict_button, #clear_button {
   margin: 1rem;
   padding: 0.5rem;
-  color: black;
 }
 
 #confidence{
@@ -40,7 +39,6 @@ body {
 #footer{
   height: 20px;
   text-align: center;
-  color: #fff;
   padding: 1%;
 }
 
@@ -70,7 +68,6 @@ body {
     font-size: 15px;
     padding: 10px;
     -webkit-appearance: none;
-    background: #eee;
     border: 1px solid #888;
     margin-top: 20px;
     margin-bottom: 20px;
