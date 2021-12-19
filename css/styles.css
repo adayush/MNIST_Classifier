@@ -1,4 +1,12 @@
 /* Some CSS styling */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 #sketchpadapp {
   /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
@@ -17,7 +25,6 @@
 }
 
 #confidence{
-  font-family: 'Josefin Sans', sans-serif;
   margin-top: 7.5%;
 }
 
@@ -35,8 +42,6 @@
    padding-top: 1%;
    padding-bottom: 1%;
    font-weight: bold;
-   font-family: 'Prompt', sans-serif;
-   
 }
 
 #footer{
@@ -46,22 +51,14 @@
   padding: 1%;
 }
 
-#prediction_heading{
-  font-family: 'Josefin Sans', sans-serif;
-  margin-top: 7.5%;
-}
-
 #result{
-  font-family: 'Pacifico', cursive;
   font-size: 5rem;
 }
 
 #sketchpad {
-    /* float:left; */
     height:250px;
     width:250px;
     border-radius:10px;
-    /* position:relative; /* Necessary for correct mouse co-ords in Firefox */ 
 }
 
 #source{
@@ -91,25 +88,28 @@
 }
 
 .heading{
-  font-family: 'Varela Round', sans-serif;
   font-weight: 700;
   font-size: 3rem;
   display: inline;
+}
+
+.row{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .canvas{
   text-align: center;
   margin: 0 auto;
   margin-top: 4%;
+  width: 50%;
 }
 
 
 .predicted_answer{
   text-align: center;
-  margin: 0 auto;
   margin-top: 4%;
-  padding: 3% 5%;
-  padding-top: 0;
+  width: 50%;
 }
 
 .responsive_img{
@@ -128,7 +128,6 @@
 
 .source-h2{
   text-align: center;
-  font-family: 'Pacifico', cursive;
   font-size: 2rem;
 }
 
@@ -160,7 +159,6 @@ a:active {
   text-decoration: none;
 }
 p{
-  font-family: 'Source Code Pro', monospace,sans-serif;
   margin-top: 1%;
 }
 
