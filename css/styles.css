@@ -11,7 +11,9 @@
 }
 
 #predict_button, #clear_button {
-  
+  margin: 1rem;
+  padding: 0.5rem;
+  color: black;
 }
 
 #confidence{
@@ -41,8 +43,7 @@
   text-align: center;
   background-color: #292b2c;
   color: #fff;
-  padding-top: 1%;
-  padding-bottom: 0%;
+  padding: 1%;
 }
 
 #prediction_heading{
@@ -59,8 +60,7 @@
     /* float:left; */
     height:250px;
     width:250px;
-    border:2px solid #888;
-    border-radius:4px;
+    border-radius:10px;
     /* position:relative; /* Necessary for correct mouse co-ords in Firefox */ 
 }
 
@@ -97,20 +97,19 @@
   display: inline;
 }
 
-.leftside{
+.canvas{
   text-align: center;
   margin: 0 auto;
   margin-top: 4%;
-  /* padding-left: 10%; */
 }
 
 
 .predicted_answer{
   text-align: center;
   margin: 0 auto;
+  margin-top: 4%;
   padding: 3% 5%;
   padding-top: 0;
-  /* padding-left: 10%; */
 }
 
 .responsive_img{
