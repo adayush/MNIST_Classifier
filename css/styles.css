@@ -22,10 +22,15 @@ body {
   user-select: none;
 }
 
+#predict_button, #clear_button {
+  border: none;
+  margin: 1rem;
+}
+
+
 #footer{
   height: 20px;
   text-align: center;
-  padding: 1%;
 }
 
 #result{
@@ -70,15 +75,14 @@ body {
 }
 
 .row{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .canvas{
   text-align: center;
   margin: 0 auto;
   margin-top: 4%;
-  width: 50%;
 }
 
 .predicted_answer{
