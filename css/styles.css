@@ -5,6 +5,7 @@ h1, h2, h3 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  margin-top: 1%;
 }
 
 body {
@@ -19,21 +20,6 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-#predict_button, #clear_button {
-  margin: 1rem;
-  padding: 0.5rem;
-}
-
-#confidence{
-  margin-top: 7.5%;
-}
-
-#content{
-  margin: 0 auto;
-  padding: 2% 15%;
-  padding-bottom: 0;
 }
 
 #footer{
@@ -58,7 +44,7 @@ body {
   margin-bottom: 10%;
 }
 
-#title{
+.title{
   padding: 1.5% 15%;
   margin: 0 auto;
   text-align: center;
@@ -95,11 +81,9 @@ body {
   width: 50%;
 }
 
-
 .predicted_answer{
   text-align: center;
-  margin-top: 4%;
-  width: 50%;
+  margin-top: 5%;
 }
 
 .responsive_img{
@@ -147,9 +131,6 @@ a:hover {
 a:active {
   color: white;
   text-decoration: none;
-}
-p{
-  margin-top: 1%;
 }
 
 @media (min-width: 720px) {
