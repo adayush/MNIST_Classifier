@@ -28,9 +28,10 @@ body {
 }
 
 
-#footer{
+footer{
   height: 20px;
   text-align: center;
+  padding-top: 1rem;
 }
 
 #result{
@@ -50,7 +51,7 @@ body {
 }
 
 .title{
-  padding: 1.5% 15%;
+  padding: 0 15%;
   margin: 0 auto;
   text-align: center;
 }
@@ -87,7 +88,7 @@ body {
 
 .predicted_answer{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .responsive_img{
